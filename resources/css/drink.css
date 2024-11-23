@@ -1,0 +1,173 @@
+body {
+    background-color: #f5f5f5;
+}
+
+
+/* Estilo do cabeçalho */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: #6c757d;
+    font-weight: bold;
+}
+
+.ajuste{
+    margin-left: -77px;
+}
+
+.baixo{
+    margin-bottom: 10px;
+}
+
+a {
+    color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+    text-decoration: underline;
+    margin-right: 115px;
+}
+
+.image-container {
+    position: relative; /* Necessary for positioning the checkbox over the image */
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.form-check {
+    position: absolute;
+    bottom: 10px; /* Adjusts the checkbox position in the lower corner */
+    right: 10px; /* Adjusts the checkbox position in the right corner */
+}
+
+.form-check-input {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.form-check-input:checked {
+    background-color: #000;
+}
+.botao-container {
+    text-align: center;
+    margin-top: 20px; /* Adicione uma margem para espaçar o botão do conteúdo anterior */
+}
+
+.botao {
+    background-color: #000;
+    color: #ddd;
+    padding: 10px 20px; /* Adicione padding para um melhor espaçamento interno */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #000;
+    color: white;
+    padding: 20px 0;
+    text-align: left;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.contact-us, .about-us, .follow-us {
+    width: 30%;
+}
+
+h4 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.email-form {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.email-form input {
+    width: 70%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.email-form button {
+    padding: 8px 15px;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.email-form button:hover {
+    background-color: #ddd;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+}
+
+.about-us ul, .follow-us ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.about-us ul li, .follow-us ul li {
+    margin-bottom: 10px;
+}
+
+.about-us ul li a, .follow-us ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.about-us ul li a:hover, .follow-us ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+hr {
+    border: 0.5px solid #444;
+}

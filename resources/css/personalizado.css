@@ -1,0 +1,137 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: #6c757d;
+    font-weight: bold;
+}
+
+.content {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    width: 100%;
+    margin-left: 60px;
+}
+
+textarea {
+    resize: none;
+}
+
+
+.drink-image {
+    width: 28%;
+}
+
+.drink-customize {
+    width: 60%;
+}
+
+
+
+/* Footer Styles */
+footer {
+    background-color: #000;
+    color: white;
+    padding: 20px 0;
+    text-align: left;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.contact-us, .about-us, .follow-us {
+    width: 30%;
+}
+
+h4 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.email-form {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.email-form input {
+    width: 70%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.email-form button {
+    padding: 8px 15px;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.email-form button:hover {
+    background-color: #ddd;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+}
+
+.about-us ul, .follow-us ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.about-us ul li, .follow-us ul li {
+    margin-bottom: 10px;
+}
+
+.about-us ul li a, .follow-us ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.about-us ul li a:hover, .follow-us ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+hr {
+    border: 0.5px solid #444;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .drink-image, .drink-customize {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .drink-customize {
+        margin-top: 1rem;
+    }
+}
